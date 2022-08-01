@@ -54,5 +54,6 @@ setup(
         'joblib.externals', 'joblib.externals.cloudpickle',
         'joblib.externals.loky', 'joblib.externals.loky.backend',
     ],
+    install_requires=['pandas'],
     python_requires='>=3.6',
 )
